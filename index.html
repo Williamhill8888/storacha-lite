@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🌶️ Storacha Web Uploader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/1967567847477153792/dmtLcz5t_400x400.jpg" />
+    <style>
+      body {
+        font-family: sans-serif;
+        background: url('https://pbs.twimg.com/profile_banners/1798326367047598080/1757939579/1500x500') no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        padding: 2em;
+      }
+      input, button {
+        margin: 0.5em;
+        padding: 0.5em;
+        font-size: 1em;
+      }
+      .file-entry {
+        margin-top: 1em;
+      }
+      a {
+        color: #0ff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🌶️ Storacha Web Uploader</h1>
+    <p>by <a href="https://x.com/bitbigcat" target="_blank">@bitbigcat</a></p>
+
+    <input type="email" id="email" placeholder="Enter your email" />
+    <button id="loginBtn">Login</button>
+
+    <br /><br />
+    <input type="file" id="fileInput" />
+    <button id="uploadBtn">Upload</button>
+
+    <h2>📂 Uploaded Files:</h2>
+    <div id="uploads"></div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
