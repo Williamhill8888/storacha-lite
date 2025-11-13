@@ -1,4 +1,4 @@
-import { create } from 'https://unpkg.com/@storacha/client?module';
+import { create } from 'https://esm.sh/@storacha/client@latest';
 
 let client;
 let currentSpace;
